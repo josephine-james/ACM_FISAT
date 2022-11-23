@@ -4,14 +4,15 @@ import styled from "styled-components";
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import ProjectImg1 from "../../assets/img/projects/Naveen1.jpg";
-import ProjectImg2 from "../../assets/img/projects/Aneeka1.jpg";
-import ProjectImg3 from "../../assets/img/projects/Joel1.png";
-import ProjectImg4 from "../../assets/img/projects/Achyuth2.jpg";
-import ProjectImg5 from "../../assets/img/projects/Amarjith1.jpg";
+import ProjectImg1 from "../../assets/img/projects/chair1.jpg";
+import ProjectImg2 from "../../assets/img/projects/vchair1.jpg";
+import ProjectImg3 from "../../assets/img/projects/Secret1.jpg";
+import ProjectImg4 from "../../assets/img/projects/Content1.jpg";
+import ProjectImg5 from "../../assets/img/projects/link1.jpg";
 import ProjectImg6 from "../../assets/img/projects/faculty.jpeg";
-import AddImage2 from "../../assets/img/add/add2.png";
-
+import ProjectImg7 from "../../assets/img/projects/tech1.jpg";
+import ProjectImg8 from "../../assets/img/projects/treasure1.jpg";
+import ProjectImg9 from "../../assets/img/projects/design1.jpg";
 export default function Projects() {
   return (
     <Wrapper id="projects">
@@ -25,26 +26,26 @@ export default function Projects() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg1}
-                title="Naveen B Jacob"
+                title="Amarjith Raj"
                 text="CHAIRPERSON"
-                action={() => {window.open("https://www.linkedin.com/in/naveen-b-jacob/");
+                action={() => {window.open("https://www.linkedin.com/in/amarjith-raj-b2822a196/");
                 }}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg2}
-                title="Aneeka Geo"
+                title="Sreelakshmi Vinod"
                 text="VICE CHAIRPERSON"
-                action={() => {window.open("https://www.linkedin.com/in/aneeka-geo");}}
+                action={() => {window.open("https://www.linkedin.com/in/sreelakshmi-vinod-b227471b8");}}
                                />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg3}
-                title="Joel Boby M"
+                title="P V Keerthana"
                 text="SECRETARY"
-                action={() => {window.open("https://www.linkedin.com/in/joel-boby-m-1b3431190");}}
+                action={() => {window.open("https://www.linkedin.com/in/p-v-keerthana-25b5b3257");}}
               />
             </div>
           </div>
@@ -52,26 +53,55 @@ export default function Projects() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg4}
-                title="Achyuth Anilkumar"
-                text="TREASURER"
-                action={() => {window.open("https://www.linkedin.com/in/achyuth-anilkumar-a9aa701aa/");
+                title="Nandana Sreekumar"
+                text="CONTENT HEAD"
+                action={() => {window.open("https://www.linkedin.com/in/nandana-sreekumar-nair-55076a245");
                 }}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg5}
-                title="Amarjith Raj"
-                text="TECH HEAD"
-                action={() => {window.open("https://www.linkedin.com/in/amarjith-raj-b2822a196/");
+                title="Smingle Simon "
+                text="LINK REP"
+                action={() => {window.open("https://www.linkedin.com/in/smingle-simon-831604257");
               }}
               />
+              
+            </div>
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox
+                img={ProjectImg7}
+                title="Gautham Prasanth "
+                text="TECH HEAD"
+                action={() => {window.open("#");
+              }}
+              />              
+            </div>
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox
+                img={ProjectImg8}
+                title="Srinand S "
+                text="TREASURER"
+                action={() => {window.open("#");
+              }}
+              />
+            </div>
+            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ProjectBox
+                img={ProjectImg9}
+                title="Isac John Eralil "
+                text="DESIGN HEAD"
+                action={() => {window.open("https://www.linkedin.com/in/isac-john-eralil-9b48a21a3");
+              }}
+              />
+              
             </div>
            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg6}
                 title="Sruthy Suresh"
-                text="FACULTY COORDINATOR"
+                text="FACULTY SPONSER"
                action={() => {window.open("https://www.linkedin.com/in/sruthy-suresh-9702ba60/");}}
               />
             </div>

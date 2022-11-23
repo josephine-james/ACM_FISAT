@@ -5,12 +5,12 @@ import { Link } from "react-scroll";
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
 // Assets
-import LogoIcon from "../../assets/logonav1.png";
+import LogoIcon from "../../assets/ACM_FISAT_small.png";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 //import HeaderImage from "../../assets/svg/logo.svg";
 
 export default function TopNavbar() {
-  const [y, setY] = useState(window.scrollY);
+  const [y, setY] = useState(window.scrollX);
   const [sidebarOpen, toggleSidebar] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function TopNavbar() {
     <>
       <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
-      <Wrapper className="flexCenter animate darkBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
+      <Wrapper className="flexCenter animate darkBg" style={y > 100 ? {  backgroundColor: "#191970"} : {}} >
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
           <img src={LogoIcon} alt="BigCo Inc. logo"/>

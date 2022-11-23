@@ -4,7 +4,7 @@ import styled from "styled-components";
 import FullButton from "../Buttons/FullButton";
 // Assets
 import BackGround from "../../assets/svg/layered-steps-haikei.svg";
-import HeaderImage from "../../assets/img/logo.png";
+import HeaderImage from "../../assets/img/ACM_FISAT.png";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 
